@@ -1,0 +1,382 @@
+@font-face {
+	font-family: anc;
+	src: url('../font/AvenirNextCondensed-Regular.ttf');
+}
+
+body{
+	font-family: anc;
+}
+@media (min-width: 200px) {
+  #threeBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:url("../images/home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: 100% 100%;
+    overflow:auto;
+  }
+  #mainBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:url("../images/secondary.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: 100% 100%;
+    overflow:auto;
+  }
+  .box {
+    margin-bottom: 20px;
+  }
+  h2 {
+    color: black;
+  }
+  .filter{
+    background-color: rgba(255, 255, 255, 0.3);
+    height:100%;
+    width:100%;
+    position:fixed;
+    overflow:auto;
+  }
+  .home-filter {
+    background-color: rgba(255, 255, 255, 0.3);
+    height:100%;
+    width:100%;
+    overflow: auto;
+    position:fixed;
+  }
+  .whitebkg {
+    position: fixed;
+    bottom: 0px;
+  }
+  .csaLogo {
+    margin-top: 50px;
+  }
+  .navbar-brand {
+      display: none;
+  }
+  .member-content{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 25px 20px 20px 20px;
+  }
+  .cardImg {
+    margin-bottom: 50px;
+  }
+	.post {
+	  margin-bottom: 100px;
+	}
+	.post-last-right {
+		margin-bottom: 0px;
+	}
+	.post-link {
+		position: relative;
+	}
+  .navbar-brand {
+    padding-left: 0px;
+  }
+	h1{
+	  color: white;
+	  margin-top: 150px;
+	  margin-bottom: 50px;
+	  font-weight: 400;
+	}
+}
+@media (min-width:395px) {
+	.post-link {
+		position: absolute;
+	}
+}
+@media (min-width:520px) {
+	h1{
+	  color: white;
+	  margin-top: 150px;
+	  margin-bottom: 50px;
+	  font-size: 4.5em;
+	  font-weight: 400;
+	}
+}
+@media (min-width: 576px) {
+	.container {
+		padding-bottom: 50px;
+	}
+}
+@media (min-width: 650px) {
+	.whitebkg {
+	  position: relative;
+	}
+}
+@media (min-width: 750px) {
+#mainBackground {
+  background:url("../images/secondary.jpg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+#threeBackground {
+  background:url("../images/home.jpg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+h2 {
+  color: white;
+}
+.csaLogo {
+	margin-top:0px;
+}
+}
+
+@media (min-width: 992px) {
+
+.navbar-collapse {
+  position: fixed;
+}
+.navbar-brand {
+    display: inline-block;
+}
+.member-content{
+  width: 30%;
+  margin-left: 25px;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 25px 20px 20px 20px;
+}
+.cardImg {
+  margin-bottom: 0;
+}
+.post-last-left {
+	margin-bottom: 0px;
+}
+#exec-container {
+	padding-left: 18px;
+}
+.navbar{
+    padding: 0.5rem;
+}
+.mobile-only {
+	display: none;
+}
+}
+@media (min-width: 1024px) {
+  .navbar-brand {
+    padding-left: 20px;
+  }
+  .navbar{
+    padding: 0.5rem 1rem;
+  }
+}
+@media (min-width: 1300px) {
+	.container {
+		max-width: 85%;
+	}
+}
+
+
+.container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px
+}
+hr {
+    border: none;
+    height: 3px;
+    background-color: #ffffff;
+    opacity: 0.2;
+}
+
+.main {
+  margin-top: 40px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.main-member {
+  margin-top: 40px;
+}
+
+.main-PastEvents{
+    margin-top: 600px;
+}
+
+.content {
+  padding: 50px 25px 75px 25px;
+  color: #000000;
+}
+.event-content {
+	padding: 50px 25px 0px 25px;
+}
+.groups{
+  margin-bottom: 45px;
+}
+.pageHeading {
+  margin-bottom: 50px;
+  color: white;
+}
+
+.pageRow {
+  margin-bottom: 50px;
+}
+
+.eventRow {
+  margin-left: 25px;
+  margin-bottom: 50px;
+}
+
+.imgBox {
+  height: 175px;
+  width: 175px;
+  background-color: black;
+  opacity: 1;
+  float: left;
+	margin-right: 25px;
+}
+.textBox {
+  background: #ffffff;
+  opacity: 0.7;
+  height: 175px;
+  width: 175px;
+  float: left;
+}
+.names {
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.socialImg {
+  height: 150px;
+  width: 150px;
+  float: left;
+}
+
+
+#linkText {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 40px;
+}
+
+.cardImg {
+  width: 100%;
+}
+
+
+.csaLogo {
+  width: 100%;
+
+}
+.csaImg {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post-row{
+  margin-top: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.colorBox {
+  background-color: black;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  float: left;
+}
+
+.carousel-inner{
+	overflow: visible;
+}
+.glyphicon {
+}
+.post-text {
+  position: relative;
+  float: left;
+  margin: 25px 0px 0px 15px;
+}
+.post-link {
+bottom: 0;
+right: 0;
+font-size: 20px;
+font-weight: bold;
+}
+
+nav{
+  z-index: 3;
+  font-size: 20px;
+  opacity: 0.9;
+}
+
+.navbar {
+  background-color: #FFFFFF!important;
+  height: 75px;
+}
+
+.navbar-brand {
+  z-index: 4;
+}
+
+#logo{
+  position: relative;
+	top: -6px;
+}
+
+.navbar-collapse {
+  background-color: #FFFFFF;
+  right: 0px;
+	top: 15px;
+
+}
+
+.dropdown-menu {
+  margin-top: 12px;
+  border: none;
+}
+
+.nav-item {
+  padding: 0px 35px;
+}
+.whitebkg {
+  background-color: rgb(255, 255, 255);
+}
+.carousel {
+  opacity: 0.7;
+}
+.carousel:hover {
+  opacity: 0.5;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+.groupImgHeader {
+  height: 85%;
+  width: 100%;
+  background-color: grey;
+  position: absolute;
+  top: 0px;
+}
+.event-date {
+	padding: 5px 0px 10px 0px;
+	font-weight: bold;
+	font-size: 20px;
+}
+h3{
+	font-weight: bold;
+	font-size: 35px;
+}
+
+.dropdown-toggle::after {
+  content: none;
+}
